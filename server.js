@@ -8,13 +8,15 @@ const signin = require("./controllers/Signin");
 const profile = require("./controllers/Profile");
 const image = require("./controllers/Image");
 
+require("dotenv").config();
+
 const db = knex({
   client: "pg",
   version: "7.2",
   connection: {
     host: "127.0.0.1",
     user: "postgres",
-    password: "vcdeviasaber",
+    password: process.env.DB_PASSWORD,
     database: "facerecognition"
   }
 });
