@@ -9,5 +9,5 @@ To run this project locally, after cloning the repository, open a terminal insid
 You should also clone "smiley-face-recognition" repository.
 
 ## Live demo
-This project is deployed at heroku:
+The project is deployed at heroku:
 https://smiley-face-recognition.herokuapp.com/
