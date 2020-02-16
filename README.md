@@ -1,5 +1,5 @@
 # Smiley - Face Recognition API
-The backend for the Smile App created with Node, express and PostgreSQL for the database.
+The backend for the Smile App created with Node, express, Clarifai API and PostgreSQL for the database.
 
 ## Installation
 To run this project locally, after cloning the repository, open a terminal inside the projects directory and do the following commands:
